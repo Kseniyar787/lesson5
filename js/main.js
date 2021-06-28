@@ -32,8 +32,6 @@ const app = new Vue({
             else
                 res[0].counter++;
 
-
-
         },
         removeBasket(prodBasket) {
             let k = this.productBasket.indexOf(prodBasket);
